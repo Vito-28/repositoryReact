@@ -4,3 +4,7 @@
     padding: 20px;
     text-align: center;
 }
+
+.card p:nth-of-type(2) {
+    font-weight: bold;
+}

@@ -10,22 +10,22 @@ import Card from './components/Card';
 function App() {
   return (
     <div className="App">
-
+      <Navbar isLoggedIn={true}></Navbar>
       <Header></Header>
       <Main></Main>
       <div className="card-container">
-        <Card title="Titolo" description="Questa è la descrizione della card" imageUrl ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2JkUtBgunzqw4Zanek2Rjl8JZNk9NjW6K-A&s"></Card>
-        <Card title="Titolo" description="Questa è la descrizione della card" imageUrl ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2JkUtBgunzqw4Zanek2Rjl8JZNk9NjW6K-A&s"></Card>
-        <Card title="Titolo" description="Questa è la descrizione della card" imageUrl ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2JkUtBgunzqw4Zanek2Rjl8JZNk9NjW6K-A&s"></Card>
-        <Card title="Titolo" description="Questa è la descrizione della card" imageUrl ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2JkUtBgunzqw4Zanek2Rjl8JZNk9NjW6K-A&s"></Card>
-        <Card title="Titolo" description="Questa è la descrizione della card" imageUrl ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2JkUtBgunzqw4Zanek2Rjl8JZNk9NjW6K-A&s"></Card>
-        <Card title="Titolo" description="Questa è la descrizione della card" imageUrl ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2JkUtBgunzqw4Zanek2Rjl8JZNk9NjW6K-A&s"></Card>
-        <Card title="Titolo" description="Questa è la descrizione della card" imageUrl ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2JkUtBgunzqw4Zanek2Rjl8JZNk9NjW6K-A&s"></Card>
-        <Card title="Titolo" description="Questa è la descrizione della card" imageUrl ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2JkUtBgunzqw4Zanek2Rjl8JZNk9NjW6K-A&s"></Card>
-        <Card title="Titolo" description="Questa è la descrizione della card" imageUrl ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2JkUtBgunzqw4Zanek2Rjl8JZNk9NjW6K-A&s"></Card>
-        <Card title="Titolo" description="Questa è la descrizione della card" imageUrl ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2JkUtBgunzqw4Zanek2Rjl8JZNk9NjW6K-A&s"></Card>
-        <Card title="Titolo" description="Questa è la descrizione della card" imageUrl ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2JkUtBgunzqw4Zanek2Rjl8JZNk9NjW6K-A&s"></Card>
-        <Card title="Titolo" description="Questa è la descrizione della card" imageUrl ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2JkUtBgunzqw4Zanek2Rjl8JZNk9NjW6K-A&s"></Card>
+        <Card isAdmin = {true} isVisited = {true} title="Titolo" description="Questa è la descrizione della card" imageUrl ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2JkUtBgunzqw4Zanek2Rjl8JZNk9NjW6K-A&s"></Card>
+        <Card isAdmin = {false} isVisited = {false} title="Titolo" description="Questa è la descrizione della card" imageUrl ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2JkUtBgunzqw4Zanek2Rjl8JZNk9NjW6K-A&s"></Card>
+        <Card isAdmin = {true} isVisited = {true} title="Titolo" description="Questa è la descrizione della card" imageUrl ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2JkUtBgunzqw4Zanek2Rjl8JZNk9NjW6K-A&s"></Card>
+        <Card isAdmin = {true} isVisited = {false} title="Titolo" description="Questa è la descrizione della card" imageUrl ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2JkUtBgunzqw4Zanek2Rjl8JZNk9NjW6K-A&s"></Card>
+        <Card isAdmin = {true} isVisited = {true} title="Titolo" description="Questa è la descrizione della card" imageUrl ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2JkUtBgunzqw4Zanek2Rjl8JZNk9NjW6K-A&s"></Card>
+        <Card isAdmin = {true} isVisited = {true} title="Titolo" description="Questa è la descrizione della card" imageUrl ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2JkUtBgunzqw4Zanek2Rjl8JZNk9NjW6K-A&s"></Card>
+        <Card isAdmin = {false} isVisited = {false} title="Titolo" description="Questa è la descrizione della card" imageUrl ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2JkUtBgunzqw4Zanek2Rjl8JZNk9NjW6K-A&s"></Card>
+        <Card isAdmin = {true} isVisited = {false} title="Titolo" description="Questa è la descrizione della card" imageUrl ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2JkUtBgunzqw4Zanek2Rjl8JZNk9NjW6K-A&s"></Card>
+        <Card isAdmin = {true} isVisited = {true} title="Titolo" description="Questa è la descrizione della card" imageUrl ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2JkUtBgunzqw4Zanek2Rjl8JZNk9NjW6K-A&s"></Card>
+        <Card isAdmin = {true} isVisited = {false} title="Titolo" description="Questa è la descrizione della card" imageUrl ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2JkUtBgunzqw4Zanek2Rjl8JZNk9NjW6K-A&s"></Card>
+        <Card isAdmin = {true} isVisited = {false} title="Titolo" description="Questa è la descrizione della card" imageUrl ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2JkUtBgunzqw4Zanek2Rjl8JZNk9NjW6K-A&s"></Card>
+        <Card isAdmin = {false} isVisited = {true} title="Titolo" description="Questa è la descrizione della card" imageUrl ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2JkUtBgunzqw4Zanek2Rjl8JZNk9NjW6K-A&s"></Card>
       </div>
       <Footer></Footer>
 
