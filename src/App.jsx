@@ -1,16 +1,26 @@
 import logo from './logo.svg';
-import './App.css';
+// import './App.css';
 import Navbar from './components/Navbar';
 import PartecipantiCorso from './components/PartecipantiCorso';
 import Header from './components/Header';
 import Main from './components/Main';
 import Footer from './components/Footer';
 import Card from './components/Card';
+import NewComponent from './components/NewComponent';
+import RealTimeInput from './components/RealTimeInput';
+import Form from './components/Form'
+import DataList from './components/DataList';
+import RegistrationForm from './components/RegistrationForm';
 
 function App() {
   return (
     <div className="App">
-      <Navbar isLoggedIn={true}></Navbar>
+      
+      <RegistrationForm></RegistrationForm>
+
+      {/* <DataList></DataList> */}
+
+      {/* <Navbar isLoggedIn={true}></Navbar>
       <Header></Header>
       <Main></Main>
       <div className="card-container">
@@ -27,7 +37,11 @@ function App() {
         <Card isAdmin = {true} isVisited = {false} title="Titolo" description="Questa è la descrizione della card" imageUrl ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2JkUtBgunzqw4Zanek2Rjl8JZNk9NjW6K-A&s"></Card>
         <Card isAdmin = {false} isVisited = {true} title="Titolo" description="Questa è la descrizione della card" imageUrl ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2JkUtBgunzqw4Zanek2Rjl8JZNk9NjW6K-A&s"></Card>
       </div>
-      <Footer></Footer>
+      <RealTimeInput></RealTimeInput>
+      <NewComponent></NewComponent>
+      <Footer></Footer> */}
+
+      {/* <Form></Form> */}
 
       {/* <PartecipantiCorso nome="Mario" cognome="Rossi" età="45">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit.

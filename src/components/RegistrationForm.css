@@ -1,0 +1,56 @@
+div.container {
+    margin: 20px;
+}
+div.container h1 {
+    background-color: darkorchid;
+    color: white;
+    margin: 0;
+    padding: 30px;
+}
+
+div.container form{
+    background-color: magenta;
+    font-size: 30px;
+    margin-bottom: 0;
+    padding-top: 10px;
+}
+
+div.container ul {
+    background-color: blueviolet;
+    color: white;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+div.container ul li {
+    padding: 10px;
+}
+
+div.container form input {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#inputSubmit {
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+div.container form label {
+    margin-left: 10px;
+}
+
+div.container form div.inputName label {
+    margin-right: 60px;
+}
+
+div.container form div.inputLastName label {
+    margin-right: 10px;
+}
+
+div.container form div.inputEmail label {
+    margin-right: 69px;
+}
