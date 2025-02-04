@@ -11,12 +11,15 @@ import RealTimeInput from './components/RealTimeInput';
 import Form from './components/Form'
 import DataList from './components/DataList';
 import RegistrationForm from './components/RegistrationForm';
+import Registration from './components/Registration';
 
 function App() {
   return (
     <div className="App">
       
-      <RegistrationForm></RegistrationForm>
+      <Registration></Registration>
+
+      {/* <RegistrationForm></RegistrationForm> */}
 
       {/* <DataList></DataList> */}
 
